@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/hover.css">
+        <link rel="stylesheet" href="css/animate.css">
+    </head>
+    <body>
+       <!-- start switch color -->
+       <section class="color-switcher">
+        <div class="switcher-btn">
+          <i class="fas fa-cog"></i>
+        </div>
+        <h3>select color</h3>
+        <div class="theme-buttons-container">
+          <span class="theme-buttons" data-color="#8e44ad" style="background-color: #8e44ad;"></span>
+          <span class="theme-buttons" data-color="#2980b9" style="background-color: #2980b9;"></span>
+          <span class="theme-buttons" data-color="#f39c12" style="background-color: #f39c12;"></span>
+          <span class="theme-buttons" data-color="#27ae60" style="background-color: #27ae60;"></span>
+          <span class="theme-buttons" data-color="#e74c3c" style="background-color: #e74c3c;"></span>
+          <span class="theme-buttons" data-color="#e84393" style="background-color: #e84393;"></span>
+          <span class="theme-buttons" data-color="#ff4757" style="background-color: #ff4757;"></span>
+          <span class="theme-buttons" data-color="#E41B17" style="background-color: #E41B17;"></span>
+          <span class="theme-buttons" data-color="#17c0eb" style="background-color: #17c0eb;"></span>
+        </div>
+       </section>
+       <!-- end switch color -->
+        <!-- Start our Navbar -->
+
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top ">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hvr-hang" href="#"><span>Eng.</span>kerolos</a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="index.html"> Home <span class="sr-only">(current)</span></a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="FAQ.html">FAQ</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Programming</a></li>
+                          <li><a href="#">Web Design</a></li>
+                          <li><a href="#">Desktop</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Web Hosting</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+             
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        <!-- End our Navbar -->
+        <!-- start carousel -->
+        <div id="carousel-test" class="carousel carousal slide hidden-xs" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators hidden-xs">
+              <li data-target="#carousel-test" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-test" data-slide-to="1"></li>
+              <li data-target="#carousel-test" data-slide-to="2"></li>
+              <li data-target="#carousel-test" data-slide-to="3"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="image/1.jpg" alt="" >
+                <div class="carousel-caption hidden-xs">
+                    <h1 class="hidden-xs hidden-sm">Programming</h1>
+                    <div class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab illum quos odio dolorem! Aspernatur sed fuga dolorum hic inventore vel aliquid molestias, voluptate quas a eius totam, maiores, necessitatibus numquam!</div>
+                 </div>
+              </div>
+              <div class="item">
+                <img src="image/2.jpg" alt="...">
+                <div class="carousel-caption hidden-xs">
+                    <h1 class="hidden-xs hidden-sm">Web Design</h1>
+                    <div class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam hic in debitis eos numquam eius inventore veniam eaque, ad dignissimos neque aperiam quidem eum officia ea modi quo earum vitae!</div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="image/3.jpg" alt="...">
+                <div class="carousel-caption hidden-xs">
+                  <h1 class="hidden-xs hidden-sm">Desktop</h1>
+                  <div class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam repellendus voluptatibus rerum facere quis culpa nulla, distinctio adipisci consequuntur mollitia tempora, quia rem aperiam molestiae eos nihil doloremque. Atque, quos.</div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="image/4.jpg" alt="...">
+                <div class="carousel-caption hidden-xs">
+                  <h1 class="hidden-xs hidden-sm">Web Hosting</h1>
+                  <div class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae harum dolores voluptatibus consequatur iusto fuga. Nostrum dolorum labore eius commodi laboriosam, necessitatibus molestiae voluptatibus aperiam beatae cum maxime, eum voluptas.</div>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-test" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-test" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        <!-- end carousal -->
+        <!-- start Section About  -->
+        <section class="about text-center wow bounceIn" data-wow-duration="5s" id="about">
+          <div class="container">
+            <h1 class="hidden-xs">Meet Our New Templete <span>Eng.Kerolos</span></h1>
+            <h3 class="visible-xs">Meet Our New Templete <span>Eng.Kerolos</span></h1>
+            <p>Hello Let Me Introduce Our New Templete Eng.Kerolos Created With All The Love With Bootstrap 3</p>
+          </div>
+        </section>
+        <!-- end Section About  -->
+        <!-- start Section Feature  -->
+        <div class="feature text-center">
+          <div class="container">
+            <h1>Our Feature</h1>
+            <div class="row">
+              <div class="col-lg-3 ">
+                <div class="feat wow bounceInLeft" data-wow-duration="2s" data-wow-offset="200">
+                  <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                  <h3>100% Responsive</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quos velit. Minus totam laborum itaque, perspiciatis nesciunt, quod sapiente rem omnis voluptates quae veniam velit quasi eius magnam quibusdam ipsum?</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="feat wow bounceInDown" data-wow-duration="2s" data-wow-offset="200">
+                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                  <h3>Retaine Ready</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quos velit. Minus totam laborum itaque, perspiciatis nesciunt, quod sapiente rem omnis voluptates quae veniam velit quasi eius magnam quibusdam ipsum?</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="feat wow bounceInUp" data-wow-duration="2s" data-wow-offset="200">
+                  <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                  <h3>Awesome Display</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quos velit. Minus totam laborum itaque, perspiciatis nesciunt, quod sapiente rem omnis voluptates quae veniam velit quasi eius magnam quibusdam ipsum?</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="feat wow bounceInRight" data-wow-duration="2s" data-wow-offset="200">
+                  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                  <h3>Well Documented</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quos velit. Minus totam laborum itaque, perspiciatis nesciunt, quod sapiente rem omnis voluptates quae veniam velit quasi eius magnam quibusdam ipsum?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end Section Feature  -->
+       <!-- start testimonials section -->
+        <section class="testimonials text-center">
+          <div class="container">
+            <h1>What Our Clients Say</h1>
+            <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+           
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <div class="display">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat saepe nihil dignissimos voluptatem exercitationem assumenda! Rerum earum ipsa cumque qui odio voluptatum. Provident pariatur, voluptatibus possimus et dolores doloremque eaque.</p>
+                    <span>Mina Nady</span>                
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="display">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat saepe nihil dignissimos voluptatem exercitationem assumenda! Rerum earum ipsa cumque qui odio voluptatum. Provident pariatur, voluptatibus possimus et dolores doloremque eaque.</p>
+                    <span>Mona Mohamed</span>                 
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="display">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat saepe nihil dignissimos voluptatem exercitationem assumenda! Rerum earum ipsa cumque qui odio voluptatum. Provident pariatur, voluptatibus possimus et dolores doloremque eaque.</p>
+                    <span>Walid Farhat</span>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="display">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat saepe nihil dignissimos voluptatem exercitationem assumenda! Rerum earum ipsa cumque qui odio voluptatum. Provident pariatur, voluptatibus possimus et dolores doloremque eaque.</p>
+                    <span>Ali Ahmed</span>                 
+                  </div>
+                </div>
+              </div>
+              <ol class="carousel-indicators hidden-xs">
+                <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+                  <img src="image/vector1.jpg" alt="kljalskd">
+                </li>
+                <li data-target="#carousel-testimonials" data-slide-to="1">
+                  <img src="image/vector2.jpg" alt="asddasd">
+                </li>
+                <li data-target="#carousel-testimonials" data-slide-to="2">
+                  <img src="image/vector3.jpg" alt="dasd">
+                </li>
+                <li data-target="#carousel-testimonials" data-slide-to="3">
+                  <img src="image/vector4.jpg" alt="dsd">
+                </li>
+              </ol>
+            </div>
+          </div>
+        </section>
+       <!-- end testimonials section -->
+       <!-- start price table  -->
+       <section class="price_table text-center">
+        <div class="container">
+          <h1>Our Amazing Price</h1>
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
+                <h2 class="text-info">Hosting</h2>
+                <p class="center-block">$30</p>
+                <hr class="hidden-xs">
+                <ul class="list-unstyled">
+                  <li>Space : 10GB</li>
+                  <li>IP : 1IP</li>
+                  <li>Email : 10</li>
+                  <li>Database : 5</li>
+                  <li>Ftp Accounts : 3</li>
+                </ul>
+                <a href="" class="btn btn-info">Order Now</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price_box wow fadeInDown" data-wow-duration="2s" data-wow-offset="200">
+                <h2 class="text-success">Dedicated</h2>
+                <p class="center-block">$40</p>
+                <hr class="hidden-xs">
+                <ul class="list-unstyled">
+                  <li>Space : 30GB</li>
+                  <li>IP : 3IP</li>
+                  <li>Email : 20</li>
+                  <li>Database : 10</li>
+                  <li>Ftp Accounts : 5</li>
+                </ul>
+                <a href="" class="btn btn-success">Order Now</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
+                <h2 class="text-primary">VPS</h2>
+                <p class="center-block">$80</p>
+                <hr class="hidden-xs">
+                <ul class="list-unstyled">
+                  <li>Space : 60GB</li>
+                  <li>IP : 5IP</li>
+                  <li>Email : 50</li>
+                  <li>Database : 30</li>
+                  <li>Ftp Accounts : 15</li>
+                </ul>
+                <a href="" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price_box wow fadeInDown" data-wow-duration="2s" data-wow-offset="200">
+                <h2 class="text-danger">Cloud</h2>
+                <p class="center-block">$120</p>
+                <hr class="hidden-xs">
+                <ul class="list-unstyled">
+                  <li>Space : 80GB</li>
+                  <li>IP : 10IP</li>
+                  <li>Email : 100</li>
+                  <li>Database : 30</li>
+                  <li>Ftp Accounts : 50</li>
+                </ul>
+                <a href="" class="btn btn-danger">Order Now</a>
+              </div>
+             </div>
+          </div>
+        </div>
+       </section>
+       <!-- end price table  -->
+       <!-- start our team section -->
+       <section class="our_team text-center">
+        <div class="cover">
+          <div class="container">
+            <h1>Meet Our Awesome Team</h1>
+            <div class="row">
+               <div class="col-md-3 col-sm-6">
+                  <div class="person wow pulse" data-wow-duration="2s" data-wow-offset="400">
+                    <img class="img-circle" src="image/wepik-1.jpeg" alt="">
+                    <h3>chris coyier</h3>
+                    <i class="fab fa-facebook "></i>
+                    <i class="fab fa-youtube "></i>
+                    <i class="fab fa-google "></i>
+                    <i class="fab fa-twitter "></i>
+                  </div>
+                </div> 
+                <div class="col-md-3 col-sm-6">
+                  <div class="person wow pulse" data-wow-duration="2s" data-wow-offset="400">
+                    <img class="img-circle" src="image/wepik-2.jpeg" alt="">
+                    <h3>steve kyrlas</h3>
+                    <i class="fab fa-facebook "></i>
+                    <i class="fab fa-youtube "></i>
+                    <i class="fab fa-google "></i>
+                    <i class="fab fa-twitter "></i>
+                  </div>
+               </div> 
+               <div class="col-md-3 col-sm-6">
+                  <div class="person wow pulse" data-wow-duration="2s" data-wow-offset="400">
+                    <img class="img-circle" src="image/wepik-3.jpeg" alt="">
+                    <h3>lean culver</h3>
+                    <i class="fab fa-facebook "></i>
+                    <i class="fab fa-youtube "></i>
+                    <i class="fab fa-google "></i>
+                    <i class="fab fa-twitter "></i>
+                  </div>
+               </div> 
+               <div class="col-md-3 col-sm-6">
+                  <div class="person wow pulse" data-wow-duration="2s" data-wow-offset="400">
+                    <img class="img-circle" src="image/wepik-4.jpeg" alt="">
+                    <h3>Michael William</h3>
+                    <i class="fab fa-facebook "></i>
+                    <i class="fab fa-youtube "></i>
+                    <i class="fab fa-google "></i>
+                    <i class="fab fa-twitter "></i>
+                  </div>
+               </div> 
+            </div>
+          </div>
+        </div>
+       </section>
+       <!-- ent our team section -->
+       <!-- start subscribe section -->
+       <section class="subscribe text-center">
+         <div class="container">
+          <div class="row">
+            <h1>Keep In Touch</h1>
+            <p>Sign Up For News Letter Do Not Worry About Spam We Hate It Too</p>
+              <form action="" class="form-inline">
+                <input type="text" class="form-control input-lg" placeholder="Enter Your Email">
+                <buttom class="btn btn-danger btn-lg"><i class="fa fa-edit hidden-sm"></i> Sign Up</buttom>
+               </form>
+          </div>
+          </div>
+        </section>
+        <!-- end subscribe section -->
+        <!-- start statistic scetion -->
+        <section class="statistic text-center">
+          <div class="cover">
+            <h1>Our Main Statistics</h1>
+            <div class="container">
+              <div class="row">
+                
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="stat">
+                   <i class="fa fa-users "></i>
+                   <p>9,555</p>
+                   <span>Satisfied Users</span>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="stat">
+                    <i class="fa fa-comments "></i>
+                    <p>20,155</p>
+                    <span>Posts Comments</span>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="stat">
+                    <i class="fa fa-suitcase "></i>
+                    <p>2,250</p>
+                    <span>Projects Done</span>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="stat">
+                    <i class="fa-sharp fa-solid fa-file-zipper"></i>
+                    <p>95,555</p>
+                    <span>Tickets Achieved</span>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ent statistic scetion -->
+        <!-- start skils section -->
+        <section class="our-skills">
+          <div class="container">
+            <h1 class="text-center">Our skills</h1>
+            <div class="row">
+              <div class="col-md-5">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90"  aria-valuemin="0" aria-valuemax="100" style="width: 90%;" data-progress="90%">
+                    HTML5 && css3 
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" data-progress="70%" aria-valuemin="0" aria-valuemax="100" style="width: 70%;" data-progress="90%">
+                    Javascript
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;" data-progress="90%">
+                    Bootstrap
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;" data-progress="90%">
+                    Angular
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-md-offset-1">
+                <div class="our-team">
+                  <h2>About The Team</h2>
+                  <p class="lead">We Are Specialised Designing And Prgramming Team Passionate About Web Design And Creatin Digital Ideas We Will Transfer Your idea To A Digital Dream And Make Your Wish Come True</p>
+                  <buttom class="btn btn-danger">Talk With A Professional</buttom>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end skils section -->
+        <!-- start contact section -->
+        <section class="contact text-center">
+          <div class="cover">
+            <div class="container">
+              <div class="row">
+                <i class="fa fa-headphones fa-5x"></i>
+              <h1>Tell Us What You Fell</h1>
+              <p class="lead">Feel Free To Contact Us AnyTime </p>
+              <form action="">
+                <div class="col-md-6 wow bounceInLeft">
+                 <div class="form-group">
+                   <input type="text" class="form-control " placeholder="Enter Your Name">
+                 </div>
+                 <div class="form-group">
+                   <input type="text" class="form-control" placeholder="Enter Your Email">
+                 </div>
+                 <div class="form-group">
+                   <input type="text" class="form-control" placeholder="Enter Your Phone">
+                 </div>
+                </div>
+                <div class="col-md-6 wow bounceInRight">
+                 <textarea class="form-control" name="" id="" cols="30" rows="3" placeholder="Enter Your Message"></textarea>
+                 <buttom class="btn btn-danger btn-block btn-lg">Contact Us</buttom>
+                </div>
+              
+              </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ent contact section -->
+        <!-- start client section  -->
+        <section class="client">
+          <div class="container">
+            <div class="row">
+              <ul>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/100.png" alt="">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/200.png" alt="">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/300.png" alt="">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/400.png" alt="">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/500.png" alt="">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/600.png" alt="">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- end client section  -->
+        <!--start footer section -->
+        <section class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6" >
+                <h3>Sitemap</h3>
+                <ul class="list-unstyled textlist">
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Company</li>
+                  <li>Code</li>
+                  <li>Design</li>
+                  <li>Code</li>
+                  <li>Soluation</li>
+                  <li>Sitemap</li>
+                  <li>Contact</li>
+                </ul>
+                <ul class="list-unstyled iconlist">
+                  <li><img src="image/social icon/facebook.png" alt=""></li>
+                  <li><img src="image/social icon/instagram.png" alt=""></li>
+                  <li><img src="image/social icon/gmail.png" alt=""></li>
+                  <li><img src="image/social icon/google.png" alt=""></li>
+                  <li><img src="image/social icon/linkedin.png" alt=""></li>
+                  <li><img src="image/social icon/twitter.png" alt=""></li>
+                  
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <h3>Latest Artical</h3>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="image/artical/1055019_news_article_information_newspaper_periodical_icon.png" alt="...">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Programming</h4>
+                    <p>This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0</p>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="image/artical/1495216_article_circle_edit_paper_pencil_icon.png" alt="...">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Coding</h4>
+                    <p>This Is Some Text About Coding Describe The Media Of Bootstrap 3.2.0</p>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="image/artical/897241_article_blog_blogging_compose_write_icon.png" alt="...">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Web Design</h4>
+                    <p>This Is Some Text About Web Design Describe The Media Of Bootstrap 3.2.0</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 myproject">
+                <h3>Our Awesome Work</h3>
+
+                    <img src="image/project/100371_project_folder_icon.png" alt="">
+                    <img src="image/project/8542253_project_diagram_icon.png" alt="">
+                    <img src="image/project/98284_project_icon.png" alt="">
+                    <img src="image/project/98984_project_15_icon.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            copyright &copy; 2023 <span>.kerolos</span>
+          </div>
+        </section>
+        <div class="buttonup">
+          <i class="fa-solid fa-up-long"></i>
+                </div>
+        <!--end footer section -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <script src="js/all.min.js"></script> -->
+        <script src="js/index.js"></script>
+        <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    </body>
+</html>

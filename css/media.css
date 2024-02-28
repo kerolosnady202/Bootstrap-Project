@@ -1,0 +1,13 @@
+@media (max-width:767px){
+    .navbar-default .navbar-nav > li > a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .subscribe input {
+        margin: 20px auto;
+        width: 400px;
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+        max-height: none;
+    }
+}
