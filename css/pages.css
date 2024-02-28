@@ -18,12 +18,12 @@
     background-color: var(--backgroundColor);
 }
 .about-us hr{
-    background-color: red;
+    background-color: var(--mainColor);
     height: 2px;
 }
 .about-us h2{
     font-size: 40px;
-    color: red;
+    color: var(--mainColor);
 }
 .about-us p{
    letter-spacing: 1.2px;
@@ -40,6 +40,10 @@
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
 }
+.about-feature h3{
+   color: var(--mainColor);
+}
+
 /* end about feature section */
 .about-ceo{
     padding-top: var(--main-padding);
@@ -56,12 +60,12 @@
  /*    background-color: var(--backgroundColor); */
 }
 .faq hr{
-    background-color: red;
+    background-color: var(--mainColor);
     height: 2px;
 }
 .faq h2{
     font-size: 40px;
-    color: red;
+    color: var(--mainColor);
 }
 .faq p{
    letter-spacing: 1.2px;
